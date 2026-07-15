@@ -1,10 +1,10 @@
-# 🍽️ FINE DINE — Premium Restaurant Ordering Application
+# FINE DINE — Premium Restaurant Ordering Application
 
 A high-end, luxury Sri Lankan dining mobile application built with Flutter. Experience a premium, Michelin-star-inspired user interface featuring authentic local cuisine, smooth transitions, custom animations, and a polished user flow.
 
 ---
 
-## 🎨 Visual Identity & Design System
+## Visual Identity & Design System
 
 *   **Brand Personality:** Luxury, High-End Gastronomy, Michelin-Star Aesthetic.
 *   **Color Palette:**
@@ -19,7 +19,7 @@ A high-end, luxury Sri Lankan dining mobile application built with Flutter. Expe
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 *   **Splash Screen:** High-end intro featuring a self-animating luxury monogram logo and clean CTA.
 *   **Onboarding:** Horizontal paging walkthrough showcasing gorgeous culinary images with page indicator dots.
@@ -36,7 +36,7 @@ A high-end, luxury Sri Lankan dining mobile application built with Flutter. Expe
 
 ---
 
-## ✨ Additional Polish & UX Enhancements
+## Additional Polish & UX Enhancements
 
 Beyond the basic requirements, the following features and adjustments were introduced to deliver a production-ready, perfect experience:
 
@@ -50,7 +50,7 @@ Beyond the basic requirements, the following features and adjustments were intro
 
 ---
 
-## 🛠️ Step-by-Step Installation & Setup
+## Step-by-Step Installation & Setup
 
 Follow these instructions to download, configure, and run the project locally on your machine.
 
@@ -101,7 +101,7 @@ flutter build apk --release
 
 ---
 
-## 🔑 Credentials & Promo Codes
+## Credentials & Promo Codes
 
 *   **Test Login Credentials (UI-Only Validation):**
     *   **Email:** `user@example.com`
@@ -112,7 +112,7 @@ flutter build apk --release
 
 ---
 
-## 🗺️ Application Screen Flow
+## Application Screen Flow
 ```
 [Splash Screen (Animated Logo)] 
        │
