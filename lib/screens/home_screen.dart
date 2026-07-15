@@ -8,6 +8,7 @@ import '../theme/app_theme.dart';
 import '../widgets/chef_selection_card.dart';
 import '../widgets/loading_skeleton.dart';
 import '../widgets/premium_food_card.dart';
+import '../widgets/food_image.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key, this.autoFocusSearch = false});

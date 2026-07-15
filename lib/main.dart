@@ -40,39 +40,34 @@ class FineDineApp extends StatelessWidget {
         onGenerateRoute: (settings) {
           switch (settings.name) {
             case AppRoutes.splash:
-              return _fadeRoute(const SplashScreen(), settings);
+              return _fadeRoute(const SplashScreen());
             case AppRoutes.onboarding:
-              return _fadeRoute(const OnboardingScreen(), settings);
+              return _fadeRoute(const OnboardingScreen());
             case AppRoutes.login:
-              return _fadeRoute(const LoginScreen(), settings);
+              return _fadeRoute(const LoginScreen());
             case AppRoutes.main:
-              return _fadeRoute(const MainShell(), settings);
+              return _fadeRoute(const MainShell());
             case AppRoutes.home:
-              return _fadeRoute(const MainShell(), settings);
+              return _fadeRoute(const MainShell());
             case AppRoutes.foodDetails:
               final foodId = settings.arguments as String;
               return MaterialPageRoute(
-                settings: settings,
                 builder: (_) => FoodDetailsScreen(foodId: foodId),
               );
             case AppRoutes.cart:
-              return MaterialPageRoute(
-                settings: settings,
-                builder: (_) => const CartScreen(),
-              );
+              return MaterialPageRoute(builder: (_) => const CartScreen());
             case AppRoutes.orderSuccess:
-              return _fadeRoute(const OrderSuccessScreen(), settings);
+              return _fadeRoute(const OrderSuccessScreen());
             default:
-              return _fadeRoute(const SplashScreen(), settings);
+              return _fadeRoute(const SplashScreen());
           }
         },
       ),
     );
   }
 
-  static PageRouteBuilder<dynamic> _fadeRoute(Widget page, RouteSettings settings) {
+  static PageRouteBuilder<dynamic> _fadeRoute(Widget page) {
     return PageRouteBuilder(
-      settings: settings,
       pageBuilder: (_, _, _) => page,
       transitionsBuilder: (_, animation, _, child) {
         return FadeTransition(opacity: animation, child: child);
