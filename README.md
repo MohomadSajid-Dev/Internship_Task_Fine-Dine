@@ -1,6 +1,6 @@
-# FINE DINE — Premium Restaurant Ordering Application
+#  FINE DINE - Premium Restaurant Ordering Application
 
-A high-end, luxury Sri Lankan dining mobile application built with Flutter. Experience a premium, Michelin-star-inspired user interface featuring authentic local cuisine, smooth transitions, custom animations, and a polished user flow.
+A high-end, luxury Sri Lankan dining mobile application built with Flutter. Experience a premium, Michelin star inspired user interface featuring authentic local cuisine, smooth transitions, custom animations and a polished user flow.
 
 ---
 
@@ -8,13 +8,13 @@ A high-end, luxury Sri Lankan dining mobile application built with Flutter. Expe
 
 *   **Brand Personality:** Luxury, High-End Gastronomy, Michelin-Star Aesthetic.
 *   **Color Palette:**
-    *   `Espresso Brown` (`#2E1B0E`) — Primary brand color representing richness and warmth.
-    *   `Warm Gold` (`#C9A66B`) — Accents and highlights signaling quality and premium status.
-    *   `Cream / Soft Beige` (`#FFF9F3` / `#F2E6D8`) — Clean, elegant backgrounds.
-    *   `Charcoal` (`#2C3E50`) — High-contrast, readable typography.
+    *   `Espresso Brown` (`#2E1B0E`) - Primary brand color representing richness and warmth.
+    *   `Warm Gold` (`#C9A66B`) - Accents and highlights signaling quality and premium status.
+    *   `Cream / Soft Beige` (`#FFF9F3` / `#F2E6D8`) - Clean, elegant backgrounds.
+    *   `Charcoal` (`#2C3E50`) - High-contrast, readable typography.
 *   **Typography:**
-    *   `Playfair Display` — Used for headings, brand names, and large titles to convey elegance.
-    *   `Inter` — Clean, highly legible sans-serif for body text, details, and price tags.
+    *   `Playfair Display` - Used for headings, brand names, and large titles to convey elegance.
+    *   `Inter` -Clean, highly legible sans-serif for body text, details, and price tags.
 *   **Layout Elements:** Custom glassmorphism overlays, 24px–32px rounded corners, subtle shadows, and top-tier food photography.
 
 ---
@@ -105,7 +105,7 @@ flutter build apk --release
 
 *   **Test Login Credentials (UI-Only Validation):**
     *   **Email:** `user@example.com`
-    *   **Password:** `123456` (Min. 6 characters required)
+    *   **Password:** `123456`
 *   **Promo Discount Code:**
     *   **Code:** `FINEDINE20`
     *   **Benefit:** Applies a 20% discount on the cart subtotal.
