@@ -1,0 +1,906 @@
+[
+    {
+        "id":  "1",
+        "name":  "Rice and Curry",
+        "shortDescription":  "Sri Lanka\u0027s iconic meal with fragrant rice and assorted curries.",
+        "description":  "A quintessential Sri Lankan meal featuring steamed white rice served with a rich chicken curry, dhal curry, pol sambol, papadam, and a seasonal vegetable side. Every bite is a burst of authentic island flavours cooked with freshly ground spices and coconut milk.",
+        "price":  450.00,
+        "category":  "Specials",
+        "restaurantName":  "SOORIYA Restaurant",
+        "imageUrl":  "assets/images/rice and curry.jpeg",
+        "rating":  4.9,
+        "prepTime":  "30 min",
+        "ingredients":  [
+                            "Steamed Rice",
+                            "Chicken Curry",
+                            "Dhal Curry",
+                            "Pol Sambol",
+                            "Papadam",
+                            "Coconut Milk"
+                        ],
+        "spiceLevel":  "Hot",
+        "isVegetarian":  false,
+        "reviews":  [
+                        {
+                            "author":  "Kasun P.",
+                            "rating":  5,
+                            "comment":  "Nothing beats a good Sri Lankan rice and curry!"
+                        },
+                        {
+                            "author":  "Nishani S.",
+                            "rating":  5,
+                            "comment":  "Just like my grandmother used to make. Absolutely perfect."
+                        }
+                    ],
+        "availability":  "Lunch"
+    },
+    {
+        "id":  "2",
+        "name":  "Kottu Roti",
+        "shortDescription":  "Street-style chopped roti stir-fried with egg, vegetables, and spices.",
+        "description":  "Sri Lanka\u0027s most beloved street food — godamba roti chopped and stir-fried on a hot iron griddle with egg, carrot, leek, onion, and a special blend of spices. Available with chicken or fully vegetarian. The rhythmic sound of blades chopping the roti is music to the ears.",
+        "price":  520.00,
+        "category":  "Specials",
+        "restaurantName":  "SOORIYA Restaurant",
+        "imageUrl":  "assets/images/kothu.jpeg",
+        "rating":  4.8,
+        "prepTime":  "20 min",
+        "ingredients":  [
+                            "Godamba Roti",
+                            "Egg",
+                            "Chicken",
+                            "Leek",
+                            "Carrot",
+                            "Onion",
+                            "Spices"
+                        ],
+        "spiceLevel":  "Hot",
+        "isVegetarian":  false,
+        "reviews":  [
+                        {
+                            "author":  "Dilshan R.",
+                            "rating":  5,
+                            "comment":  "Best kottu I\u0027ve had in Colombo!"
+                        },
+                        {
+                            "author":  "Amaya K.",
+                            "rating":  5,
+                            "comment":  "The spice level is just right. Totally addictive."
+                        }
+                    ],
+        "availability":  "Breakfast, Dinner"
+    },
+    {
+        "id":  "3",
+        "name":  "Egg Hoppers",
+        "shortDescription":  "Bowl-shaped crispy rice flour pancakes with a soft egg centre.",
+        "description":  "Traditional Sri Lankan hoppers (appam) made from fermented rice flour and coconut milk batter, cooked in a small wok until the edges are lacy and crispy while the base stays soft. Cracked with a fresh egg inside. Best enjoyed with pol sambol and seeni sambol.",
+        "price":  180.00,
+        "category":  "Hoppers",
+        "restaurantName":  "SOORIYA Restaurant",
+        "imageUrl":  "assets/images/Egg Hoppers.jpeg",
+        "rating":  4.7,
+        "prepTime":  "15 min",
+        "ingredients":  [
+                            "Rice Flour",
+                            "Coconut Milk",
+                            "Egg",
+                            "Fermented Batter",
+                            "Salt"
+                        ],
+        "spiceLevel":  "Mild",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Priya W.",
+                            "rating":  5,
+                            "comment":  "Perfect crispy edges with a soft centre — morning staple!"
+                        },
+                        {
+                            "author":  "Roshan M.",
+                            "rating":  4,
+                            "comment":  "Great with pol sambol on the side."
+                        }
+                    ],
+        "availability":  "Breakfast, Dinner"
+    },
+    {
+        "id":  "4",
+        "name":  "String Hoppers",
+        "shortDescription":  "Delicate steamed rice noodle nests served with coconut sambol.",
+        "description":  "Fine noodle nests pressed from rice flour dough and steamed to perfection. Soft, light, and mildly flavoured, string hoppers are a staple Sri Lankan breakfast and dinner. Served with a generous helping of pol sambol and a bowl of warm chicken or dhal curry for dipping.",
+        "price":  220.00,
+        "category":  "Hoppers",
+        "restaurantName":  "SOORIYA Restaurant",
+        "imageUrl":  "assets/images/String Hoppers.jpeg",
+        "rating":  4.6,
+        "prepTime":  "20 min",
+        "ingredients":  [
+                            "Rice Flour",
+                            "Water",
+                            "Salt",
+                            "Pol Sambol",
+                            "Dhal Curry"
+                        ],
+        "spiceLevel":  "Mild",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Tharini J.",
+                            "rating":  5,
+                            "comment":  "Authentic and soft — reminded me of home!"
+                        },
+                        {
+                            "author":  "Saman B.",
+                            "rating":  4,
+                            "comment":  "Simple, light, and comforting."
+                        }
+                    ],
+        "availability":  "Breakfast, Dinner"
+    },
+    {
+        "id":  "5",
+        "name":  "Fish Ambul Thiyal",
+        "shortDescription":  "Dry sour fish curry made with goraka and bold island spices.",
+        "description":  "A signature Sri Lankan dry fish curry from the southern coast, made with thick cuts of tuna cooked in a robust paste of goraka (gamboge), black pepper, garlic, and cinnamon. The intense sourness and smoky depth make it utterly unique. Best served with steamed white rice.",
+        "price":  680.00,
+        "category":  "Seafood",
+        "restaurantName":  "SOORIYA Ocean Kitchen",
+        "imageUrl":  "assets/images/Fish Ambul Thiyal.jpeg",
+        "rating":  4.9,
+        "prepTime":  "40 min",
+        "ingredients":  [
+                            "Tuna",
+                            "Goraka",
+                            "Black Pepper",
+                            "Garlic",
+                            "Cinnamon",
+                            "Pandan Leaf"
+                        ],
+        "spiceLevel":  "Very Hot",
+        "isVegetarian":  false,
+        "reviews":  [
+                        {
+                            "author":  "Nimali C.",
+                            "rating":  5,
+                            "comment":  "Absolutely authentic southern taste. Loved every bite!"
+                        },
+                        {
+                            "author":  "Ruwan T.",
+                            "rating":  5,
+                            "comment":  "The goraka sourness is perfectly balanced. A true Sri Lankan classic."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "6",
+        "name":  "Devilled Chicken",
+        "shortDescription":  "Crispy fried chicken tossed in a fiery sweet-sour devilled sauce.",
+        "description":  "Tender chicken pieces fried until golden then tossed in a bold sauce of capsicum, onion, tomato ketchup, soy sauce, vinegar, and chilli. Sri Lanka\u0027s favourite dry-style chicken dish — sweet, sour, and gloriously spicy. A must-order at any local restaurant.",
+        "price":  750.00,
+        "category":  "Specials",
+        "restaurantName":  "SOORIYA Restaurant",
+        "imageUrl":  "assets/images/Chicken deviled.jpeg",
+        "rating":  4.8,
+        "prepTime":  "25 min",
+        "ingredients":  [
+                            "Chicken",
+                            "Capsicum",
+                            "Onion",
+                            "Chilli",
+                            "Tomato Ketchup",
+                            "Soy Sauce",
+                            "Vinegar"
+                        ],
+        "spiceLevel":  "Hot",
+        "isVegetarian":  false,
+        "reviews":  [
+                        {
+                            "author":  "Lahiru A.",
+                            "rating":  5,
+                            "comment":  "Perfectly spicy with a great sauce. Best devilled chicken in town!"
+                        },
+                        {
+                            "author":  "Sanduni F.",
+                            "rating":  5,
+                            "comment":  "I order this every single time I visit."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "7",
+        "name":  "Prawn Curry",
+        "shortDescription":  "Juicy prawns slow-cooked in creamy coconut milk curry.",
+        "description":  "Fresh tiger prawns simmered in a rich Sri Lankan curry gravy made with coconut milk, tomatoes, onion, mustard seeds, curry leaves, and fragrant spices. Creamy, aromatic, and deeply satisfying. Pair it with steamed rice or a warm roti for the full experience.",
+        "price":  1100.00,
+        "category":  "Seafood",
+        "restaurantName":  "SOORIYA Ocean Kitchen",
+        "imageUrl":  "assets/images/prawn curry.jpeg",
+        "rating":  4.8,
+        "prepTime":  "30 min",
+        "ingredients":  [
+                            "Tiger Prawns",
+                            "Coconut Milk",
+                            "Tomatoes",
+                            "Mustard Seeds",
+                            "Curry Leaves",
+                            "Spices"
+                        ],
+        "spiceLevel":  "Medium",
+        "isVegetarian":  false,
+        "reviews":  [
+                        {
+                            "author":  "Chamari D.",
+                            "rating":  5,
+                            "comment":  "The coconut milk gravy is divine. Prawns were perfectly cooked."
+                        },
+                        {
+                            "author":  "Isuru P.",
+                            "rating":  4,
+                            "comment":  "Rich and creamy — restaurant quality at a fair price."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "8",
+        "name":  "Dhal Curry",
+        "shortDescription":  "Slow-cooked red lentils in a golden coconut milk base.",
+        "description":  "A beloved everyday Sri Lankan staple — red lentils cooked until perfectly tender in a fragrant broth of coconut milk, turmeric, green chilli, mustard seeds, and curry leaves. Finished with a temper of red onion and dried chilli. Comforting, nutritious, and utterly delicious.",
+        "price":  250.00,
+        "category":  "Vegetarian",
+        "restaurantName":  "SOORIYA Restaurant",
+        "imageUrl":  "assets/images/Dhal curry.jpeg",
+        "rating":  4.7,
+        "prepTime":  "25 min",
+        "ingredients":  [
+                            "Red Lentils",
+                            "Coconut Milk",
+                            "Turmeric",
+                            "Green Chilli",
+                            "Mustard Seeds",
+                            "Curry Leaves"
+                        ],
+        "spiceLevel":  "Medium",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Savini R.",
+                            "rating":  5,
+                            "comment":  "Exactly like the dhal curry my mother makes. Wonderful!"
+                        },
+                        {
+                            "author":  "Harith N.",
+                            "rating":  4,
+                            "comment":  "Simple but incredibly flavourful."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "9",
+        "name":  "Lamprais",
+        "shortDescription":  "Dutch-Burgher heritage: rice, curries and sambol baked in banana leaf.",
+        "description":  "A cherished Dutch-Burgher heirloom dish — fragrant Dutch rice, a seeni sambol, a prawn blachan, two curries (chicken and dhal), and a slice of frikkadel, all wrapped in a banana leaf and baked until the flavours meld together in perfect harmony. A true Sri Lankan celebration meal.",
+        "price":  850.00,
+        "category":  "Specials",
+        "restaurantName":  "SOORIYA Restaurant",
+        "imageUrl":  "assets/images/Lamprais.jpeg",
+        "rating":  4.9,
+        "prepTime":  "50 min",
+        "ingredients":  [
+                            "Dutch Rice",
+                            "Chicken Curry",
+                            "Dhal",
+                            "Seeni Sambol",
+                            "Frikkadel",
+                            "Banana Leaf"
+                        ],
+        "spiceLevel":  "Medium",
+        "isVegetarian":  false,
+        "reviews":  [
+                        {
+                            "author":  "Genevieve P.",
+                            "rating":  5,
+                            "comment":  "Absolutely extraordinary. This is Sri Lanka\u0027s finest dish."
+                        },
+                        {
+                            "author":  "Bernard F.",
+                            "rating":  5,
+                            "comment":  "The banana leaf wrapping adds such a unique aroma. Exceptional!"
+                        }
+                    ],
+        "availability":  "Lunch"
+    },
+    {
+        "id":  "10",
+        "name":  "Pittu",
+        "shortDescription":  "Steamed rice flour and coconut cylinders, a beloved Lankan classic.",
+        "description":  "Pittu is a traditional Sri Lankan dish made of alternating layers of rice flour and freshly grated coconut, packed into a cylindrical bamboo or metal mould and steamed. Light yet filling, pittu pairs perfectly with coconut milk, chicken curry, or a spicy katta sambol.",
+        "price":  200.00,
+        "category":  "Hoppers",
+        "restaurantName":  "SOORIYA Restaurant",
+      "imageUrl":  "assets/images/pittu.jpeg",
+        "rating":  4.6,
+        "prepTime":  "20 min",
+        "ingredients":  [
+                            "Rice Flour",
+                            "Grated Coconut",
+                            "Salt",
+                            "Water"
+                        ],
+        "spiceLevel":  "Mild",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Malsha K.",
+                            "rating":  5,
+                            "comment":  "Perfect pittu — soft, fluffy, and just right with coconut milk."
+                        },
+                        {
+                            "author":  "Bhanuka L.",
+                            "rating":  4,
+                            "comment":  "Classic Sri Lankan breakfast. Always a great choice."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "11",
+        "name":  "Wattalappam",
+        "shortDescription":  "Silky Malay-origin coconut custard pudding with jaggery.",
+        "description":  "A beloved Sri Lankan dessert of Malay origin — a rich, dense steamed custard made with coconut milk, jaggery (kithul treacle), eggs, and an aromatic blend of cardamom, cloves, and nutmeg. Deep caramel in colour and intensely flavourful. A festive favourite across all communities.",
+        "price":  320.00,
+        "category":  "Desserts",
+        "restaurantName":  "SOORIYA Patisserie",
+      "imageUrl":  "assets/images/Wattalappam.jpeg",
+        "rating":  4.9,
+        "prepTime":  "60 min",
+        "ingredients":  [
+                            "Coconut Milk",
+                            "Jaggery",
+                            "Eggs",
+                            "Cardamom",
+                            "Cloves",
+                            "Nutmeg"
+                        ],
+        "spiceLevel":  "Mild",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Fathima Z.",
+                            "rating":  5,
+                            "comment":  "The most authentic wattalappam I\u0027ve tasted. Rich and aromatic!"
+                        },
+                        {
+                            "author":  "Lakshmi V.",
+                            "rating":  5,
+                            "comment":  "Silky smooth with a deep jaggery flavour. Absolutely divine."
+                        }
+                    ],
+        "availability":  "All Day"
+    },
+    {
+        "id":  "12",
+        "name":  "Kiri Bath",
+        "shortDescription":  "Auspicious milk rice cooked in thick coconut milk.",
+        "description":  "Kiri Bath is Sri Lanka\u0027s most auspicious dish — white rice slow-cooked in thick coconut milk until it becomes a rich, creamy, and slightly dense cake. Traditionally cut into diamond or square shapes and served at New Year celebrations and special occasions. Best enjoyed with pol sambol or lunu miris.",
+        "price":  280.00,
+        "category":  "Specials",
+        "restaurantName":  "SOORIYA Restaurant",
+        "imageUrl":  "assets/images/kiri bath.jpeg",
+        "rating":  4.7,
+        "prepTime":  "35 min",
+        "ingredients":  [
+                            "White Rice",
+                            "Thick Coconut Milk",
+                            "Salt",
+                            "Pol Sambol"
+                        ],
+        "spiceLevel":  "Mild",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Anoma P.",
+                            "rating":  5,
+                            "comment":  "Perfectly creamy kiri bath — brings back childhood New Year memories."
+                        },
+                        {
+                            "author":  "Ruwanthi S.",
+                            "rating":  4,
+                            "comment":  "Rich and satisfying. A wonderful traditional dish."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "13",
+        "name":  "Pol Roti",
+        "shortDescription":  "Thick coconut flatbread cooked on a griddle — a Sri Lankan staple.",
+        "description":  "Rustic and filling flatbread made from wheat flour, freshly grated coconut, green chilli, and onion, cooked on a dry hot griddle until slightly charred. Pol roti is a common Sri Lankan breakfast or dinner paired beautifully with pol sambol, dhal curry, or a fried egg.",
+        "price":  120.00,
+        "category":  "Short Eats",
+        "restaurantName":  "SOORIYA Restaurant",
+        "imageUrl":  "assets/images/Pol Roti.jpeg",
+        "rating":  4.6,
+        "prepTime":  "15 min",
+        "ingredients":  [
+                            "Wheat Flour",
+                            "Grated Coconut",
+                            "Green Chilli",
+                            "Onion",
+                            "Salt"
+                        ],
+        "spiceLevel":  "Medium",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Dilini W.",
+                            "rating":  5,
+                            "comment":  "Crispy outside, soft inside — just how roti should be!"
+                        },
+                        {
+                            "author":  "Ajith K.",
+                            "rating":  4,
+                            "comment":  "Perfect with dhal curry. A truly comforting meal."
+                        }
+                    ],
+        "availability":  "Breakfast, Dinner"
+    },
+    {
+        "id":  "14",
+        "name":  "Buffalo Curd with Treacle",
+        "shortDescription":  "Creamy buffalo curd drizzled with sweet kithul palm treacle.",
+        "description":  "Sri Lanka\u0027s most iconic natural dessert — thick, velvety buffalo curd with a pleasantly tart flavour, generously drizzled with dark, sweet kithul palm treacle. A simple yet extraordinarily delicious combination that has been enjoyed across the island for centuries. Often served chilled in an earthen clay pot.",
+        "price":  350.00,
+        "category":  "Desserts",
+        "restaurantName":  "SOORIYA Patisserie",
+        "imageUrl":  "assets/images/Buffalo Curd with Treacle.jpeg",
+        "rating":  4.8,
+        "prepTime":  "5 min",
+        "ingredients":  [
+                            "Buffalo Curd",
+                            "Kithul Palm Treacle"
+                        ],
+        "spiceLevel":  "Mild",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Shehan M.",
+                            "rating":  5,
+                            "comment":  "The treacle sweetness with the tangy curd is simply divine."
+                        },
+                        {
+                            "author":  "Oshadi R.",
+                            "rating":  5,
+                            "comment":  "Served beautifully in a clay pot. Tasted incredible!"
+                        }
+                    ],
+        "availability":  "All Day"
+    },
+    {
+        "id":  "15",
+        "name":  "Crab Curry",
+        "shortDescription":  "Whole blue swimmer crab in a bold coconut milk masala.",
+        "description":  "A showstopper Sri Lankan seafood dish featuring whole blue swimmer crabs cooked in a thick, aromatic masala of coconut milk, roasted spices, tomato, and green chilli. The sauce is deep, complex, and finger-licking good. Best eaten with your hands alongside steamed rice or pol roti.",
+        "price":  1800.00,
+        "category":  "Seafood",
+        "restaurantName":  "SOORIYA Ocean Kitchen",
+        "imageUrl":  "assets/images/crab curry.jpeg",
+        "rating":  4.9,
+        "prepTime":  "45 min",
+        "ingredients":  [
+                            "Blue Swimmer Crab",
+                            "Coconut Milk",
+                            "Roasted Spices",
+                            "Tomato",
+                            "Green Chilli",
+                            "Pandan"
+                        ],
+        "spiceLevel":  "Very Hot",
+        "isVegetarian":  false,
+        "reviews":  [
+                        {
+                            "author":  "Vimukthi N.",
+                            "rating":  5,
+                            "comment":  "Absolutely worth every rupee. The sauce alone is a masterpiece!"
+                        },
+                        {
+                            "author":  "Thilini P.",
+                            "rating":  5,
+                            "comment":  "Best crab curry on the island. Mind-blowing flavour."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "16",
+        "name":  "Isso Vadai",
+        "shortDescription":  "Crispy lentil fritters topped with whole fresh prawns.",
+        "description":  "A beloved Sri Lankan street snack from Galle Face Green — golden-fried masala vadai (lentil fritters) topped with whole fresh prawns pressed in before frying. Crunchy on the outside, soft on the inside, and bursting with seasoning. Best eaten hot with a squeeze of lime.",
+        "price":  350.00,
+        "category":  "Short Eats",
+        "restaurantName":  "SOORIYA Snacks",
+        "imageUrl":  "assets/images/Isso Vadai.jpeg",
+        "rating":  4.7,
+        "prepTime":  "18 min",
+        "ingredients":  [
+                            "Urad Dhal",
+                            "Prawns",
+                            "Onion",
+                            "Green Chilli",
+                            "Curry Leaves",
+                            "Lime"
+                        ],
+        "spiceLevel":  "Medium",
+        "isVegetarian":  false,
+        "reviews":  [
+                        {
+                            "author":  "Akila C.",
+                            "rating":  5,
+                            "comment":  "These transport me straight to Galle Face! Perfectly crispy."
+                        },
+                        {
+                            "author":  "Hasini F.",
+                            "rating":  5,
+                            "comment":  "The prawn on top is the best part. Incredible street food!"
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "17",
+        "name":  "Wood Apple Juice",
+        "shortDescription":  "Tangy-sweet fresh wood apple drink — a Sri Lankan favourite.",
+        "description":  "A refreshing and nutritious traditional Sri Lankan drink made by blending the unique wood apple (beli fruit) pulp with coconut milk and a touch of jaggery. Earthy, tangy, creamy, and mildly sweet all at once. A wonderfully exotic flavour profile that is distinctly Sri Lankan.",
+        "price":  180.00,
+        "category":  "Drinks",
+        "restaurantName":  "SOORIYA Beverages",
+        "imageUrl":  "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=800\u0026q=80",
+        "rating":  4.6,
+        "prepTime":  "5 min",
+        "ingredients":  [
+                            "Wood Apple Pulp",
+                            "Coconut Milk",
+                            "Jaggery",
+                            "Water"
+                        ],
+        "spiceLevel":  "Mild",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Naduni M.",
+                            "rating":  5,
+                            "comment":  "Tastes exactly like what you get at the village kade. Love it!"
+                        },
+                        {
+                            "author":  "Kelum J.",
+                            "rating":  4,
+                            "comment":  "Sweet, tangy, and very refreshing on a hot day."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "18",
+        "name":  "Ceylon Tea",
+        "shortDescription":  "Iconic Sri Lankan black tea served strong with milk.",
+        "description":  "Sri Lanka\u0027s most famous export — a perfectly brewed cup of world-renowned Ceylon black tea sourced from the hill country estates of Nuwara Eliya or Uva. Served strong with rich milk and your choice of sweetener. Bold, malty, and deeply aromatic — the ultimate Sri Lankan experience in a cup.",
+        "price":  150.00,
+        "category":  "Drinks",
+        "restaurantName":  "SOORIYA Beverages",
+        "imageUrl":  "assets/images/black tea.jpeg",
+        "rating":  4.8,
+        "prepTime":  "5 min",
+        "ingredients":  [
+                            "Ceylon Black Tea Leaves",
+                            "Boiling Water",
+                            "Milk",
+                            "Sugar"
+                        ],
+        "spiceLevel":  "Mild",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Asanka W.",
+                            "rating":  5,
+                            "comment":  "Nothing like a proper cup of Ceylon tea. World class!"
+                        },
+                        {
+                            "author":  "Renuka L.",
+                            "rating":  5,
+                            "comment":  "Strong, fragrant, and full-bodied. The best tea I\u0027ve had."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "19",
+        "name":  "King Coconut Drink",
+        "shortDescription":  "Fresh chilled thambili — Sri Lanka\u0027s natural energy drink.",
+        "description":  "Sri Lanka\u0027s golden king coconut (thambili) is cracked open fresh and served chilled, offering a naturally sweet, electrolyte-rich coconut water unlike any other in the world. Known for its medicinal properties, it is the perfect thirst-quencher in Sri Lanka\u0027s tropical heat. Pure, natural, and utterly refreshing.",
+        "price":  120.00,
+        "category":  "Drinks",
+        "restaurantName":  "SOORIYA Beverages",
+        "imageUrl":  "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=800\u0026q=80",
+        "rating":  4.9,
+        "prepTime":  "2 min",
+        "ingredients":  [
+                            "King Coconut (Thambili)"
+                        ],
+        "spiceLevel":  "Mild",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Chanuka B.",
+                            "rating":  5,
+                            "comment":  "Nothing more refreshing than a fresh thambili on a hot afternoon!"
+                        },
+                        {
+                            "author":  "Shyama P.",
+                            "rating":  5,
+                            "comment":  "Natural, sweet, and the best drink in Sri Lanka hands down."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "20",
+        "name":  "Wambatu Moju",
+        "shortDescription":  "Sri Lankan pickled eggplant in a sweet-sour-spicy glaze.",
+        "description":  "A vibrant and tangy Sri Lankan condiment dish — deep-fried slices of eggplant (brinjal) tossed in a glossy glaze of coconut oil, vinegar, sugar, mustard seeds, turmeric, and dried chilli. Sweet, sour, and spicy, wambatu moju is the perfect accompaniment to any rice and curry meal.",
+        "price":  200.00,
+        "category":  "Vegetarian",
+        "restaurantName":  "SOORIYA Restaurant",
+        "imageUrl":  "assets/images/Wambatu Moju.jpeg",
+        "rating":  4.6,
+        "prepTime":  "20 min",
+        "ingredients":  [
+                            "Eggplant",
+                            "Vinegar",
+                            "Sugar",
+                            "Mustard Seeds",
+                            "Turmeric",
+                            "Dried Chilli"
+                        ],
+        "spiceLevel":  "Medium",
+        "isVegetarian":  true,
+        "reviews":  [
+                        {
+                            "author":  "Roshani D.",
+                            "rating":  5,
+                            "comment":  "Perfectly balanced sweet and sour. Goes great with rice!"
+                        },
+                        {
+                            "author":  "Manoj T.",
+                            "rating":  4,
+                            "comment":  "A flavourful side dish. Makes any rice and curry meal complete."
+                        }
+                    ],
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "21",
+        "name":  "Chicken Masal Kothu",
+        "shortDescription":  "Spicy masala chicken kothu with chopped roti and bold island spices.",
+        "description":  "A chef\u0027s special take on Sri Lanka\u0027s favourite street food — godamba roti chopped on a hot griddle with tender masala chicken, leek, carrot, onion, egg, and a fiery blend of roasted spices. Rich, smoky, and packed with flavour in every bite.",
+        "price":  1300,
+        "category":  "Specials",
+        "imageUrl":  "assets/images/chicken_masala_kothu.png",
+        "rating":  4.9,
+        "prepTime":  "22 min",
+        "ingredients":  [
+                            "Godamba Roti",
+                            "Masala Chicken",
+                            "Egg",
+                            "Leek",
+                            "Carrot",
+                            "Onion",
+                            "Spices"
+                        ],
+        "spiceLevel":  "Hot",
+        "isVegetarian":  false,
+        "isChefSelection":  true,
+        "reviews":  [
+                        {
+                            "author":  "Tharindu M.",
+                            "rating":  5,
+                            "comment":  "The masala chicken makes this kothu next level. Absolutely incredible!"
+                        },
+                        {
+                            "author":  "Priya N.",
+                            "rating":  5,
+                            "comment":  "Best kothu on the menu — spicy, smoky, and perfectly chopped."
+                        }
+                    ],
+        "restaurantName":  "Colombo Spice",
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "22",
+        "name":  "Veg Full Meal",
+        "shortDescription":  "Complete vegetarian rice and curry platter with seasonal sides.",
+        "description":  "A wholesome Sri Lankan vegetarian feast — steamed rice served with dhal curry, jackfruit curry, beetroot mallung, brinjal moju, pol sambol, papadam, and a seasonal vegetable curry. Balanced, nourishing, and bursting with authentic home-style flavours.",
+        "price":  800,
+        "category":  "Vegetarian",
+        "imageUrl":  "assets/images/Veg full meal.png",
+        "rating":  4.8,
+        "prepTime":  "28 min",
+        "ingredients":  [
+                            "Steamed Rice",
+                            "Dhal Curry",
+                            "Jackfruit Curry",
+                            "Beetroot Mallung",
+                            "Brinjal Moju",
+                            "Pol Sambol",
+                            "Papadam"
+                        ],
+        "spiceLevel":  "Medium",
+        "isVegetarian":  true,
+        "isChefSelection":  true,
+        "reviews":  [
+                        {
+                            "author":  "Anjali R.",
+                            "rating":  5,
+                            "comment":  "So many flavours on one plate. A perfect veg meal!"
+                        },
+                        {
+                            "author":  "Kavindu S.",
+                            "rating":  5,
+                            "comment":  "Generous portions and every curry tastes homemade."
+                        }
+                    ],
+        "restaurantName":  "Colombo Spice",
+        "availability":  "Lunch, Dinner"
+    },
+    {
+        "id":  "23",
+        "name":  "Schezwan Rice",
+        "shortDescription":  "Wok-tossed rice with schezwan sauce, vegetables, and chilli heat.",
+        "description":  "Fragrant basmati rice stir-fried in a blazing hot wok with schezwan sauce, bell peppers, spring onion, carrot, and green chilli. Bold, tangy, and fiery — a fusion favourite with a Sri Lankan kick. Finished with a drizzle of sesame oil for extra aroma.",
+        "price":  1100,
+        "category":  "Specials",
+        "imageUrl":  "assets/images/Schezwan rice.png",
+        "rating":  4.7,
+        "prepTime":  "18 min",
+        "ingredients":  [
+                            "Basmati Rice",
+                            "Schezwan Sauce",
+                            "Bell Pepper",
+                            "Spring Onion",
+                            "Carrot",
+                            "Green Chilli",
+                            "Sesame Oil"
+                        ],
+        "spiceLevel":  "Hot",
+        "isVegetarian":  true,
+        "isChefSelection":  true,
+        "reviews":  [
+                        {
+                            "author":  "Dinesh K.",
+                            "rating":  5,
+                            "comment":  "Perfect spice level and so much flavour in every spoonful!"
+                        },
+                        {
+                            "author":  "Madhavi L.",
+                            "rating":  4,
+                            "comment":  "Great fusion dish — tangy, spicy, and very satisfying."
+                        }
+                    ],
+        "restaurantName":  "Colombo Spice",
+        "availability":  "Lunch"
+    },
+    {
+        "id":  "24",
+        "name":  "Mongolion Fried Rice",
+        "shortDescription":  "Savory wok-fried rice with vegetables and Mongolion-style seasoning.",
+        "description":  "Classic Mongolion-style fried rice — fluffy grains wok-tossed with tender chicken, egg, spring onion, capsicum, and a savoury soy-garlic glaze. Smoky from the high heat, lightly sweet, and deeply umami. A crowd-pleasing chef\u0027s pick.",
+        "price":  1250,
+        "category":  "Specials",
+        "imageUrl":  "assets/images/Monoglion Fried rice.png",
+        "rating":  4.8,
+        "prepTime":  "20 min",
+        "ingredients":  [
+                            "Rice",
+                            "Chicken",
+                            "Egg",
+                            "Spring Onion",
+                            "Capsicum",
+                            "Soy Sauce",
+                            "Garlic"
+                        ],
+        "spiceLevel":  "Medium",
+        "isVegetarian":  false,
+        "isChefSelection":  true,
+        "reviews":  [
+                        {
+                            "author":  "Ruwan P.",
+                            "rating":  5,
+                            "comment":  "Smoky, savoury, and perfectly seasoned. My go-to fried rice!"
+                        },
+                        {
+                            "author":  "Ishara W.",
+                            "rating":  5,
+                            "comment":  "The wok flavour really comes through. Delicious every time."
+                        }
+                    ],
+        "restaurantName":  "Colombo Spice",
+        "availability":  "Lunch"
+    },
+    {
+        "id":  "25",
+        "name":  "Sea Food String Hopper Kothu",
+        "shortDescription":  "String hoppers chopped with fresh seafood and aromatic spices.",
+        "description":  "An innovative chef\u0027s creation — delicate string hoppers chopped and stir-fried on the griddle with prawns, cuttlefish, crab meat, leek, onion, and a rich seafood masala. A luxurious twist on the classic kothu with the light texture of idiyappam and bold ocean flavours.",
+        "price":  1600,
+        "category":  "Seafood",
+        "imageUrl":  "assets/images/Seafood String Hoppers.png",
+        "rating":  4.9,
+        "prepTime":  "25 min",
+        "ingredients":  [
+                            "String Hoppers",
+                            "Prawns",
+                            "Cuttlefish",
+                            "Crab Meat",
+                            "Leek",
+                            "Onion",
+                            "Seafood Masala"
+                        ],
+        "spiceLevel":  "Hot",
+        "isVegetarian":  false,
+        "isChefSelection":  true,
+        "reviews":  [
+                        {
+                            "author":  "Nimal J.",
+                            "rating":  5,
+                            "comment":  "The seafood mix is incredible — unique and absolutely worth trying!"
+                        },
+                        {
+                            "author":  "Chathuri F.",
+                            "rating":  5,
+                            "comment":  "String hopper kothu is genius. Fresh seafood and perfect spice."
+                        }
+                    ],
+        "restaurantName":  "Colombo Spice",
+        "availability":  "Breakfast, Dinner"
+    },
+    {
+        "id":  "26",
+        "name":  "Full Grilled Chicken",
+        "shortDescription":  "Whole chicken marinated in spices and flame-grilled to perfection.",
+        "description":  "A show-stopping whole chicken marinated overnight in Sri Lankan spices, yoghurt, and lime, then slow-grilled over open flame until the skin is crisp and golden while the meat stays juicy and tender. Served with pol sambol, lime wedges, and a side of fries. Perfect for sharing.",
+        "price":  1200,
+        "category":  "Specials",
+        "imageUrl":  "assets/images/Full grill chicken.png",
+        "rating":  4.9,
+        "prepTime":  "45 min",
+        "ingredients":  [
+                            "Whole Chicken",
+                            "Yoghurt",
+                            "Lime",
+                            "Curry Leaves",
+                            "Roasted Spices",
+                            "Pol Sambol",
+                            "Fries"
+                        ],
+        "spiceLevel":  "Medium",
+        "isVegetarian":  false,
+        "isChefSelection":  true,
+        "reviews":  [
+                        {
+                            "author":  "Hasitha G.",
+                            "rating":  5,
+                            "comment":  "Juicy inside, crispy outside. The best grilled chicken I\u0027ve had!"
+                        },
+                        {
+                            "author":  "Melani D.",
+                            "rating":  5,
+                            "comment":  "Perfect for sharing — huge portion and incredible flavour."
+                        }
+                    ],
+        "restaurantName":  "Colombo Spice",
+        "availability":  "Lunch, Dinner"
+    }
+]
